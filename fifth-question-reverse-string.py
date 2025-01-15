@@ -4,7 +4,6 @@ def reverse_string(s):
         reversed_str = char + reversed_str
     return reversed_str
 
-# Example usage
 string = input("Informe uma palavra: ")
 string_invertida = reverse_string(string)
 print("String original:", string)
